@@ -1,15 +1,14 @@
 ﻿using ReactiveUI.Fody.Helpers;
 using Ui.Wpf.Common;
+using Ui.Wpf.Common.ViewModels;
 
 namespace Kanban.Desktop.Settings
 {
-    public class SettingsViewModel : ISettingsViewModel
+    public class SettingsViewModel : ViewModelBase, ISettingsViewModel
     {
         public void Initialize(ViewRequest viewRequest)
         {
         }
-        
-        [Reactive] public string Title { get; set; }
         
         public bool UseDynamicDimensionts { get; set; }
     }

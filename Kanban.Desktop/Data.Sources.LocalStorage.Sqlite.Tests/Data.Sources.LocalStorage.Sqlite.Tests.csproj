@@ -166,10 +166,6 @@
       <Project>{8BA427B7-F1BE-4AFD-8FE2-48256F518B66}</Project>
       <Name>Kanban.Desktop.LocalBase</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Kanban.Desktop.Tests\Ui.Wpf.KanbanControl.Tests\Ui.Wpf.KanbanControl.Tests.csproj">
-      <Project>{7ff04819-5de0-4a2c-86cb-850a930897e5}</Project>
-      <Name>Ui.Wpf.KanbanControl.Tests</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

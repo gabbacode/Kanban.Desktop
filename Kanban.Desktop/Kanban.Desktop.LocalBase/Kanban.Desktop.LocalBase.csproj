@@ -222,6 +222,12 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="Ui.Wpf.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ui.Wpf.Common.1.0.0-CI00001\lib\net462\Ui.Wpf.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Ui.Wpf.KanbanControl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ui.Wpf.KanbanControl.1.0.0-CI00001\lib\net462\Ui.Wpf.KanbanControl.dll</HintPath>
+    </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -332,16 +338,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Ui.Wpf.Common\Ui.Wpf.Common.csproj">
-      <Project>{FDB62508-AFFA-4281-8472-8D00FC1403BA}</Project>
-      <Name>Ui.Wpf.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Ui.Wpf.KanbanControl\Ui.Wpf.KanbanControl.csproj">
-      <Project>{7f46f76e-ee01-4e40-9c31-bb61fff33e47}</Project>
-      <Name>Ui.Wpf.KanbanControl</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="FodyWeavers.xml" />

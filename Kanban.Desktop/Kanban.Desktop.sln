@@ -5,17 +5,11 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kanban.Desktop", "Kanban.Desktop\Kanban.Desktop.csproj", "{8DA7A6F2-737C-4EB7-82BB-0B1F06C0B27B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ui.Wpf.Common", "Ui.Wpf.Common\Ui.Wpf.Common.csproj", "{FDB62508-AFFA-4281-8472-8D00FC1403BA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ui.Wpf.KanbanControl", "Ui.Wpf.KanbanControl\Ui.Wpf.KanbanControl.csproj", "{7F46F76E-EE01-4E40-9C31-BB61FFF33E47}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Sources.Common", "Data.Sources.Common\Data.Sources.Common.csproj", "{C1D73699-7C75-48BB-8076-913018DB6852}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Entities.Common", "Data.Entities.Common\Data.Entities.Common.csproj", "{D70D3F81-6B4F-4F6C-873F-53482DE2DE52}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Sources.Redmine", "Data.Sources.Redmine\Data.Sources.Redmine.csproj", "{DC43F550-84B8-4950-835C-B16B8BCA5F12}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ui.Wpf.KanbanControl.Tests", "Kanban.Desktop.Tests\Ui.Wpf.KanbanControl.Tests\Ui.Wpf.KanbanControl.Tests.csproj", "{7FF04819-5DE0-4A2C-86CB-850A930897E5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kanban.Desktop.Tests", "Kanban.Desktop.Tests", "{13774D47-C275-438B-8E00-0528DD34A278}"
 EndProject
@@ -35,14 +29,6 @@ Global
 		{8DA7A6F2-737C-4EB7-82BB-0B1F06C0B27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DA7A6F2-737C-4EB7-82BB-0B1F06C0B27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DA7A6F2-737C-4EB7-82BB-0B1F06C0B27B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FDB62508-AFFA-4281-8472-8D00FC1403BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FDB62508-AFFA-4281-8472-8D00FC1403BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FDB62508-AFFA-4281-8472-8D00FC1403BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FDB62508-AFFA-4281-8472-8D00FC1403BA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7F46F76E-EE01-4E40-9C31-BB61FFF33E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F46F76E-EE01-4E40-9C31-BB61FFF33E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7F46F76E-EE01-4E40-9C31-BB61FFF33E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7F46F76E-EE01-4E40-9C31-BB61FFF33E47}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C1D73699-7C75-48BB-8076-913018DB6852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C1D73699-7C75-48BB-8076-913018DB6852}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1D73699-7C75-48BB-8076-913018DB6852}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -55,10 +41,6 @@ Global
 		{DC43F550-84B8-4950-835C-B16B8BCA5F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC43F550-84B8-4950-835C-B16B8BCA5F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC43F550-84B8-4950-835C-B16B8BCA5F12}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7FF04819-5DE0-4A2C-86CB-850A930897E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7FF04819-5DE0-4A2C-86CB-850A930897E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7FF04819-5DE0-4A2C-86CB-850A930897E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7FF04819-5DE0-4A2C-86CB-850A930897E5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6F2B3F9D-7C6B-4230-AE94-A3BEC5AA41DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6F2B3F9D-7C6B-4230-AE94-A3BEC5AA41DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F2B3F9D-7C6B-4230-AE94-A3BEC5AA41DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -76,7 +58,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{7FF04819-5DE0-4A2C-86CB-850A930897E5} = {13774D47-C275-438B-8E00-0528DD34A278}
 		{6F2B3F9D-7C6B-4230-AE94-A3BEC5AA41DE} = {13774D47-C275-438B-8E00-0528DD34A278}
 		{70D99B18-6AF9-402C-B0ED-8EB53BC194F1} = {13774D47-C275-438B-8E00-0528DD34A278}
 	EndGlobalSection
